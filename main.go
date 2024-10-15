@@ -3,7 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, Go Essentials!")
+	fmt.Println("Hello, Go Essentials!") //string
+	fmt.Println(2)                       //inteiros
+	fmt.Println(2 + 5)                   //expressoes
+	fmt.Println(true)                    //booleanos
+	fmt.Println("Hello, " + "World!")    //concatenar strings
+	fmt.Println(2 * 5)                   //operações matemáticas
+	fmt.Println(len("Hello, World!"))    //tamanho de uma string
+
+	fmt.Printf("Hello, i'm %v and i'm an integrer\n", 2)
+
+	fmt.Println(true && false) // E
+	fmt.Println(true || false) // OU
+	fmt.Println(!true)         // negação
 }
 
 // pasta = folders podem ter multiplus arquivos
