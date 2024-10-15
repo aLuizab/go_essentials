@@ -10,6 +10,8 @@ func main() {
 	fmt.Println("Hello, " + "World!")    //concatenar strings
 	fmt.Println(2 * 5)                   //operações matemáticas
 	fmt.Println(len("Hello, World!"))    //tamanho de uma string
+
+	fmt.Printf("Hello, i'm %v and i'm an integrer\n", 2)
 }
 
 // pasta = folders podem ter multiplus arquivos
