@@ -12,6 +12,10 @@ func main() {
 	fmt.Println(len("Hello, World!"))    //tamanho de uma string
 
 	fmt.Printf("Hello, i'm %v and i'm an integrer\n", 2)
+
+	fmt.Println(true && false) // E
+	fmt.Println(true || false) // OU
+	fmt.Println(!true)         // negação
 }
 
 // pasta = folders podem ter multiplus arquivos
